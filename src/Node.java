@@ -12,6 +12,7 @@ public class Node<T> {
 
     Node(T data){
         this.data = data;
+        this.next = null;
     }
 
     Node(T data, Node nextNode){

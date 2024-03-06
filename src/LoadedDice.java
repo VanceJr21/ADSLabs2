@@ -1,3 +1,14 @@
+/*
+Name: Vance McGahee Jr
+Course: COSC 2454
+Professor: Dr. Zaki
+Date : 03/04/2024
+Description: This program has a random feature that either choose the Randoms object nextInt()
+             or the LoadDice object nextInt which returns the largest number.
+ */
+
+
+
 import java.util.Random;
 
 public class LoadedDice extends Random {
