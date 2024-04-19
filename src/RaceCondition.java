@@ -6,7 +6,7 @@ public class RaceCondition {
         final int NUMTHREADS =100;
 
         // We'll run the experiment 1000
-        for (int i = 1; i <= 10000; i++){
+        for (int i = 1; i <= 1000; i++){
             System.out.printf("Run %d....", i);
             Data data = new Data();
             ArrayList<Thread> threads = new ArrayList<>();

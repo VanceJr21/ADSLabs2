@@ -1,5 +1,5 @@
 import javax.swing.*;
-import java.awt.*;
+import java.util.Iterator;
 
 public class ControlSand {
 
@@ -11,13 +11,12 @@ public class ControlSand {
         JFrame frame = new JFrame();
 
 
-
         frame.add(game);
         frame.add(game.button);
 
 
         frame.pack();
-        frame.setSize(450,450);
+        frame.setSize(450, 450);
 
         frame.setVisible(true);
 
